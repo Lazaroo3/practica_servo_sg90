@@ -20,9 +20,9 @@ void tres_angulos(){
 	servoMotor.write(0);
   	delay(1000);
   	servoMotor.write(90);
-  	delay(1000);
+  	delay(4000);
   	servoMotor.write(180);
-  	delay(1000);
+  	delay(5000);
 }
 
 void vigilancia(){
@@ -38,5 +38,7 @@ void vigilancia(){
 }
 
 void loop(){
-	tres_angulos();
+	
+	//tres_angulos();
+	//vigilancia();
 }
